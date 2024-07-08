@@ -162,7 +162,7 @@ const list = defineComponent({
           <NSpace vertical>
             <NDataTable
               row-class-name='data-source-items'
-              columns={columns.columns}
+              columns={columns.columns as any}
               data={list}
               loading={loading}
               striped
